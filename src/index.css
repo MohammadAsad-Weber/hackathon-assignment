@@ -9,6 +9,13 @@
         font-style: normal;
     }
 
+    @font-face {
+        font-family: 'VTF';
+        src: url('/src/assets/fonts/VTF.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
     .clip-1 {
         clip-path: polygon(0 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 85%, 35% 85%, 35% 60%);
     }
