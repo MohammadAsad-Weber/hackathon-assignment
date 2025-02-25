@@ -23,7 +23,7 @@ function Button(props) {
 
 function Navbar() {
   return (
-    <nav className="absolute z-[1] top-10 left-1/2 -translate-x-1/2 flex items-center justify-center gap-10">
+    <nav className="absolute z-[1] top-32 left-1/2 -translate-x-1/2 flex items-center justify-center gap-10">
       {/* HackIndia Logo & Text */}
       <div className="flex items-center justify-center gap-2.5">
         <img
