@@ -1,5 +1,5 @@
 import React from "react";
-import HackIndia from "../assets/hackindia.png";
+import HackIndia from "../assets/hackindia.png"; // HackIndia Logo
 
 // Sub-Component
 function Button(props) {
@@ -33,8 +33,8 @@ function Navbar() {
         />
         <h3 className="tracking-widest uppercase text-xl">Hackindia</h3>
       </div>
-      {/* Scroll container */}
-      <div className="h-16 max-w-fit w-full sticky top-2.5 py-2.5 px-7.5 tracking-wider text-xs flex items-center gap-3.5 bg-[#28083A] border border-[#DFDFDF1A] rounded-xl shadow-[0_1px_4px_#D9D9D94D]">
+      {/* Links */}
+      <div className="h-16 max-w-fit w-full py-2.5 px-7.5 tracking-wider text-xs flex items-center gap-3.5 bg-[#28083A] border border-[#DFDFDF1A] rounded-xl shadow-[0_1px_4px_#D9D9D94D]">
         <Button text="Overview" />
         <Button text="Create Team" />
         <Button text="Prizes & Sponsors" />

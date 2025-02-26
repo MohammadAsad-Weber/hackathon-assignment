@@ -1,6 +1,6 @@
 import React from "react";
-import BackgroundVideo from "../assets/background-video.mp4";
-import SingularityLogo from "../assets/singularity.png";
+import BackgroundVideo from "../assets/background-video.mp4"; // Background Video
+import SingularityLogo from "../assets/singularity.png"; // Singularity Logo
 
 function Hero() {
   return (

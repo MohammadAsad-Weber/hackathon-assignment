@@ -1,11 +1,11 @@
 import React from "react";
-import Lightning from "../assets/lightning.png";
-import YouTubeLink from "../assets/youtube-link.png";
+import Lightning from "../assets/lightning.png"; // Thunderbolt Image
+import YouTubeLink from "../assets/youtube-link.png"; // YouTube Video Image
 
 function Benefits() {
   return (
     <section className="h-fit py-16 px-10 relative flex items-center justify-center bg-[linear-gradient(135deg,_#31213b_0%,_#110618_100%)]">
-      {/* Lightning Image */}
+      {/* Thunderbolt Image */}
       <img
         src={Lightning}
         alt="Lightning Image"
@@ -13,8 +13,8 @@ function Benefits() {
       />
       {/* Inner div */}
       <div className="w-full flex flex-col-reverse items-center justify-evenly gap-10 lg:flex-row lg:items-end">
-        {/* Flex Box */}
-        <div className="max-w-lg w-full flex flex-col gap-2.5 sm:gap-5 xl:gap-10 lg:-translate-y-2.5">
+        {/* Detail Box */}
+        <div className="max-w-lg w-full flex flex-col gap-2.5 sm:gap-5 lg:-translate-y-2.5 xl:gap-10">
           {/* Row number 1 */}
           <div style={{ textShadow: "0 1.5px 3px rgba(255, 255, 255, 0.75)" }}>
             <h3 className="text-2xl sm:text-4xl xl:text-5xl">150+</h3>
