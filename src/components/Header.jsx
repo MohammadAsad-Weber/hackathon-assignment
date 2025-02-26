@@ -7,7 +7,7 @@ import { IoClose } from "react-icons/io5";
 function Hamburger(props) {
   return (
     <div
-      style={props.show ? { left: "0" } : { left: "-100%" }}
+      style={props.show ? { left: "0" } : { left: "-110%" }}
       className="h-screen w-screen fixed z-50 top-0 bg-black/50"
     >
       <div
