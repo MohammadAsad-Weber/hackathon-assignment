@@ -4,7 +4,7 @@ import SingularityLogo from "../assets/singularity.png";
 
 function Hero() {
   return (
-    <section className="h-fit w-screen py-10 relative flex items-center justify-center">
+    <section className="h-fit w-full py-10 relative flex items-center justify-center">
       {/* Background Video */}
       <video
         src={BackgroundVideo}
