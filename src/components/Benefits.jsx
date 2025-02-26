@@ -4,38 +4,38 @@ import YouTubeLink from "../assets/youtube-link.png";
 
 function Benefits() {
   return (
-    <section className="h-[85vh] px-10 relative flex items-center justify-center bg-[linear-gradient(135deg,_#31213b_0%,_#110618_100%)]">
+    <section className="h-fit py-16 px-10 relative flex items-center justify-center bg-[linear-gradient(135deg,_#31213b_0%,_#110618_100%)]">
       {/* Lightning Image */}
       <img
         src={Lightning}
         alt="Lightning Image"
-        className="aspect-auto h-48 absolute -left-1.5 top-20 rotate-180"
+        className="aspect-auto h-16 absolute -left-1.5 top-0.5 rotate-180 lg:h-20 lg:top-20 xl:h-36"
       />
       {/* Inner div */}
-      <div className="w-full flex items-end justify-evenly gap-10">
+      <div className="w-full flex flex-col-reverse items-center justify-evenly gap-10 lg:flex-row lg:items-end">
         {/* Flex Box */}
-        <div className="max-w-lg w-full flex flex-col gap-10 -translate-y-2.5">
+        <div className="max-w-lg w-full flex flex-col gap-2.5 sm:gap-5 xl:gap-10 lg:-translate-y-2.5">
           {/* Row number 1 */}
           <div style={{ textShadow: "0 1.5px 3px rgba(255, 255, 255, 0.75)" }}>
-            <h3 className="text-5xl">150+</h3>
-            <p className="text-lg">Universities participating</p>
+            <h3 className="text-2xl sm:text-4xl xl:text-5xl">150+</h3>
+            <p className="text-sm sm:text-lg xl:text-xl">Universities participating</p>
           </div>
           {/* Row number 2 */}
-          <div className="flex items-center gap-16">
+          <div className="flex items-center gap-5 sm:gap-10 xl:gap-16">
             {/* Column number 1 */}
             <div>
-              <h3 className="text-5xl">72+</h3>
-              <p className="text-lg">Judges</p>
+              <h3 className="text-2xl sm:text-4xl xl:text-5xl">72+</h3>
+              <p className="text-sm sm:text-lg xl:text-xl">Judges</p>
             </div>
             {/* Column number 2 */}
             <div>
-              <h3 className="text-5xl">21</h3>
-              <p className="text-lg">Hackathons</p>
+              <h3 className="text-2xl sm:text-4xl xl:text-5xl">21</h3>
+              <p className="text-sm sm:text-lg xl:text-xl">Hackathons</p>
             </div>
             {/* Column number 3 */}
             <div>
-              <h3 className="text-5xl">36+</h3>
-              <p className="text-lg">Great Speakers</p>
+              <h3 className="text-2xl sm:text-4xl xl:text-5xl">36+</h3>
+              <p className="text-sm sm:text-lg xl:text-xl">Great Speakers</p>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ function Benefits() {
         <img
           src={YouTubeLink}
           alt="YouTube Link"
-          className="aspect-video max-w-screen-sm w-full"
+          className="aspect-video max-w-lg w-full xl:max-w-screen-sm"
         />
       </div>
     </section>
