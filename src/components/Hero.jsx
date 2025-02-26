@@ -4,49 +4,49 @@ import SingularityLogo from "../assets/singularity.png";
 
 function Hero() {
   return (
-    <section className="relative">
+    <section className="h-fit w-screen py-10 relative flex items-center justify-center">
       {/* Background Video */}
       <video
         src={BackgroundVideo}
         autoPlay={true}
         loop={true}
         muted={true}
-        className="w-full  blur-xs"
+        className="h-full w-full absolute -z-10 top-0 left-1/2 -translate-x-1/2 object-cover blur-xs"
       />
       {/* Container */}
-      <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 text-center flex flex-col items-center justify-center gap-7.5">
+      <div className="text-center flex flex-col items-center justify-center gap-7.5 xl:mt-28">
         {/* Logo {Singularity} */}
         <img
           src={SingularityLogo}
           alt="Singularity Logo"
-          className="aspect-auto h-20"
+          className="aspect-auto h-10 sm:h-16"
         />
         {/* Heading */}
         <h1
           style={{ textShadow: "0 4px 8px rgba(255, 255, 255, 0.5)" }}
-          className="text-8xl"
+          className="text-4xl sm:text-6xl"
         >
           <span className="py-2.5 px-1 bg-orange-500 border rounded">Ha</span>
           ckIndia2025
         </h1>
         {/* Subheading */}
-        <h2 className="text-3xl font-bold capitalize font-['VTF']">
+        <h2 className="text-xl font-bold capitalize font-['VTF']">
           India's biggest web3 & AI hackathon
         </h2>
         {/* Date Box */}
-        <div className="py-2.5 px-5 text-xl font-['VTF'] bg-[linear-gradient(91.08deg,_#6A1799_-29.38%,_#230833_105.37%)] border-2 border-[#D9D9D94D] rounded-lg">
+        <div className="py-2.5 px-5 font-['VTF'] bg-[linear-gradient(91.08deg,_#6A1799_-29.38%,_#230833_105.37%)] border-2 border-[#D9D9D94D] rounded-lg sm:text-lg">
           February 28 - September 28
         </div>
         {/* Flex Container */}
-        <div className="w-4xl text-2xl font-medium font-['VTF'] flex items-center justify-evenly">
+        <div className="max-w-screen-sm w-full text-xl font-medium font-['VTF'] flex flex-col items-center justify-evenly gap-3.5 sm:flex-row">
           <h3>
             <span className="text-orange-600">$150+</span> Price Pool
           </h3>
-          |
+          <span className="hidden sm:inline">|</span>
           <h3>
             <span className="text-orange-600">150+</span> University
           </h3>
-          |
+          <span className="hidden sm:inline">|</span>
           <h3>
             <span className="text-orange-600">25,000+</span> Students
           </h3>
